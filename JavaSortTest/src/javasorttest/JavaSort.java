@@ -26,10 +26,8 @@ public static void bubbleSort(int array[])
                 array[j] = array[j+1];
                 array[j+1] = temp;
 
-                //added code from student
               System.out.println("Pass: ");
               System.out.println(Arrays.toString(array));
-                //end added code from student   
 
 
                 }
@@ -53,10 +51,8 @@ public static void InsertSort(int array[])
         }
         array[j + 1] = key;
 
-        //added code from student
               System.out.println("Pass: ");
               System.out.println(Arrays.toString(array));
-     //end added code from student   
 
 
     }
@@ -92,10 +88,8 @@ public static int ShellSort(int array[])
             // location
             array[j] = temp;
 
-           //added code from student
               System.out.println("Pass: ");
               System.out.println(Arrays.toString(array));
-     //end added code from student   
 
         }
     }
@@ -153,11 +147,10 @@ public static void merge(int a[], int beg, int mid, int end)
         j++;    
         k++;    
         
-    }    //added code from student
-                  System.out.println("Pass: ");
-                  System.out.println(Arrays.toString(a));
-         //end added code from student   
-                  
+    }    
+    System.out.println("Pass: ");
+    System.out.println(Arrays.toString(a));
+         
 }    
   
 static void mergeSort(int a[], int beg, int end)  
@@ -233,10 +226,7 @@ static void quickSort(int[] arr, int low, int high)
         // partition and after partition
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
-                        
-         //added code from student
-                  
-         //end added code from student          
+                                          
     }
 }
 
